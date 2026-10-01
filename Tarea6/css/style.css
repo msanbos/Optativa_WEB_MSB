@@ -1,14 +1,19 @@
 body{
-    /*Aqui defines la familia de fuente que hayas importado*/
-}
-
-/*
-<weight>: Use a value from 100 to 900
-<uniquifier>: Use a unique and descriptive class name
-*/
-.outfit-outfitFont {
+  /*Aqui defines la familia de fuente que hayas importado*/
+  /*
+  <weight>: Use a value from 100 to 900
+  <uniquifier>: Use a unique and descriptive class name
+  */
+  .outfit-outfitFont {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  }  
+  .isometra-regular {
+    font-family: "Isometra", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
+
