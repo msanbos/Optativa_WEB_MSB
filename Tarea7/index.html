@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi lista de tareas</title>
+    <!--La fuente de la presentación-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Conectamos el CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="contenedor">
+        <h1>Mi lista de tareas</h1>
+        <p class="subtitulo">Organiza tus tareas de forma sencilla.</p>
+
+        <div class="entrada">
+            <input 
+                type="text" 
+                id="tareaInput" 
+                placeholder="Escribe una tarea..."
+            >
+            <button id="agregarBtn">Añadir</button>
+        </div>
+
+        <ul id="listaTareas"></ul>
+
+        <p id="mensaje" class="mensaje">
+            Todavía no tienes tareas.
+        </p>
+    </main>
+
+    <!-- Conectamos el JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
