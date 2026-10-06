@@ -1,0 +1,72 @@
+body{
+    font-family: "Outfit";
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    
+}
+.attribution a{
+    color: hsl(216, 15%, 48%); 
+}
+
+.attribution{
+    font-size: 0.6875rem; 
+    text-align: center;
+}
+/*EL CSS DE GOOGLE FONT
+<weight>: Use a value from 100 to 900
+<uniquifier>: Use a unique and descriptive class name
+
+.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+.outfit-regular {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-bold {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card{
+    background-color:hsl(0, 0%, 100%);
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.imagen{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    color: hsl(218, 44%, 22%);
+}
+
+p{
+    color: hsl(216, 15%, 48%)
+}
+
+.text{
+    padding-left: 20px;
+    padding-right: 20px;
+}
