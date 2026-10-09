@@ -1,0 +1,80 @@
+/*
+    METODOLOGÍA PARA EL DISEÑO
+    1.-Estructura (para tener algo visual)
+    2.-Agrupaciones
+    3.-Reset
+    4.-Fuentes y texto base
+    5.-Colores, fondos y fuentes
+    6.-Posicionamiento y cajas/estructura
+*/
+
+/*RESET*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Outfit, sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    margin:4rem;
+    
+    
+}
+.texto h1{
+    font-weight: 700;
+    color:hsl(218, 44%, 22%);
+    padding-top: 1rem;
+}
+.texto p{
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);    
+    padding: 1rem;
+}
+
+.card{
+    width: 420px;
+    padding:1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: white;
+
+}
+.card img{
+    max-width: 100%;
+    border-radius: 0.8rem;
+}
+
+/*AMPLIACIÓN*/
+header{
+    background-color: white;
+    max-width: 50%;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+footer{
+    display: flex;
+    color: hsl(216, 15%, 48%);
+    
+}
+.attribution{
+    font-size: small;
+    background-color: white;
+    max-width: 95%;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+footer img{
+    border-radius: 50%;
+    max-width: 25%;
+    padding: 5%;
+}
