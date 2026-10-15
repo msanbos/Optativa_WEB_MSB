@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: Figtree, sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 325px;
+    padding: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border: 3px solid;
+    border-radius: 1rem;
+    box-shadow: 15px 15px  black;
+}
+.card img{
+    border-radius: 0.8rem;
+}
+.card button{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    background-color: hsl(47, 88%, 63%);
+    border: 0px;
+    border-radius:0.2rem;
+    font-weight: bold;    
+}
+.texto{
+    color:hsl(0, 0%, 42%);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+div p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.pie_card{
+    display: flex;
+    place-items: center;
+}
+
+.pie_card img{
+    max-width: 12%;
+    padding-right: 1rem;
+}
+.pie_card p{
+    font-weight: 800;
+}
+
+.attribution{
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a{
+    font-size: 0.6875rem;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+h2:hover{
+    color:hsl(47, 88%, 63%);
+}
